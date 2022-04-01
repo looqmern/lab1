@@ -51,7 +51,7 @@
    allocation_id = aws_eip.nateIP.id
    subnet_id = aws_subnet.publicsubnets.id
 }
-resource "aws_instance" "DEL-Webserv" {
+resource "aws_instance" "DEL-Webserv2" {
   count = 2
 
   instance_type = "t2.micro"
