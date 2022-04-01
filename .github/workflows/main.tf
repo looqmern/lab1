@@ -21,4 +21,8 @@ terraform {
       name = "Github_com_Lab1"
     }
   }
+
+  provider "aws" {
+   region = "us-east-1"
+ }
 }
